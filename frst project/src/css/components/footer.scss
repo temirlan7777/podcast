@@ -1,0 +1,48 @@
+@import "../variable.scss";
+.footer{
+    .element{
+        padding: 100px 291px 127px 70.81px;
+        width: 100%;
+        height: 438px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        .logo{
+            display: flex;
+            flex-direction: column;
+            gap: 26.41px;
+            margin-right: 239.52px;
+            .masangers{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+        .text{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-start;
+            gap: 146px;
+            .block-right{
+                margin-right: 21.05px;
+            }
+                ul{
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    gap: 10px;
+                    li{
+                        font-weight: 400;
+                        font-size: 17px;
+                        color: #FFFFFF;            
+                    }
+                }
+        }
+        .img{
+            display: flex;
+            align-items: center;
+            gap: 17.05px;
+        }
+    }
+}

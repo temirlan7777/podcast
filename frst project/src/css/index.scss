@@ -1,0 +1,23 @@
+@import "./normalize/normalize.scss";
+@import "./components/button.scss";
+@import './variable.scss';
+// @import "components/profC";
+
+.bg {
+  background: #363f46;
+}
+// header
+@import "./components/header.scss";
+
+// level
+@import "./components/level.scss";
+
+// latest
+@import "./components/latest.scss";
+
+// jacob
+@import "./components/jacob.scss";
+// star
+@import './components/stars.scss';
+// footer
+@import './components/footer.scss';

@@ -1,0 +1,31 @@
+@import "../variable.scss";
+@import "./button.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 43px 70px 43px 50.58px;
+  .nav{
+    display: flex;
+    align-items: center;
+    .header-list {
+      margin-top: 46px;
+      margin-right: 70px;
+      display: flex;
+      gap: 40px;
+      &__item {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color: #ffffff;
+      }
+      &__home {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color: #118da8;
+      }
+    }
+  }
+}

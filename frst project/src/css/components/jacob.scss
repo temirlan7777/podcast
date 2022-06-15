@@ -1,0 +1,49 @@
+@import "../variable.scss";
+@import "./button.scss";
+
+.jacob{
+    .section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin:260px 70px 201px 70px;
+        &-left{
+            width: 590px;
+            height: 448px;
+            display: flex;
+            flex-direction: column;
+            .radius{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+                width: 112px;
+                height: 112px;
+                background: #118DA8;
+                border-radius: 100px;
+            }
+            span{
+                margin-bottom: 10px;
+                font-weight: 400;
+                font-size: 18px;
+                color: #118DA8;
+            }
+            h2{
+                font-weight: 400;
+                font-size: 65px;
+                letter-spacing: 2.88px; 
+                color: #FFFFFF;
+            }
+            p{
+                margin: 33px 0;
+                font-weight: 400;
+                font-size: 22px;
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+        }
+        &-right{
+
+        }
+    }
+}
